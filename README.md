@@ -3,7 +3,7 @@ A library webpage designed to hold sheet music metadata.
 
 Continued object practice. The library will be an array of "book" objects, each containing basic metadata about the piece. I've chosen to use a muscial application, so I can a) mock data I'm familiar with and b) create interesting stretch goals.
 
-MVP Criteria:
+## MVP Criteria:
 - Constructor for making "book" objects
 - Book objects should include:
     - Title
@@ -19,14 +19,14 @@ MVP Criteria:
 - A button or checkbox for the `Played?` option
 - Responsive
 
-Stretch Goals:
+### Stretch Goals:
 - Persistent data options via localstorage or Firebase
 - An instruments list for each book
 - Selectable ensemble types: Concert Band, Orchestra, Choir, Solo
 - Animations
 - Dark mode
 
-Process:
+## Process:
 1. Skeleton HTML/CSS
 2. Book Constructor function
 3. Add Book function & button/card design
