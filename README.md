@@ -23,8 +23,8 @@ Continued object practice. The library will be an array of "book" objects, each 
 - Persistent data options via localstorage or Firebase
 - An instruments list for each book
 - Selectable ensemble types: Concert Band, Orchestra, Choir, Solo
+- Edit Book function which allows the user to update an existing book
 - Animations
-- Dark mode
 
 ## Process:
 1. Skeleton HTML/CSS
@@ -34,6 +34,16 @@ Continued object practice. The library will be an array of "book" objects, each 
 5. Delete Book function
 6. Selectable Ensembles
 7. Instrument list
-8. Storage
-9. Animations
-10. Dark Mode
+8. Edit Book function
+9. Storage
+10. Animations
+
+## Misc.
+
+### "Old Library" Color Swatches
+Dark Slate Grey: #325453
+Cadet: #517174
+Fire Opal: #ef5d58
+Burlywood: #dcbe87
+Dark Gold: #ad6a34
+French Puce: #4e1d04
