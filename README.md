@@ -42,8 +42,13 @@ Continued object practice. The library will be an array of "book" objects, each 
 
 ### "Old Library" Color Swatches
 Dark Slate Grey: #325453
+
 Cadet: #517174
+
 Fire Opal: #ef5d58
+
 Burlywood: #dcbe87
+
 Dark Gold: #ad6a34
+
 French Puce: #4e1d04
