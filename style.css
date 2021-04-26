@@ -6,3 +6,62 @@
     --dark-gold: #ad6a34;
     --fr-puce: #4e1d04;
 }
+
+body {
+    background-color: var(--burlywood);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--ds-grey);
+    font-size: 2rem;
+    width: auto;
+}
+
+.buttons-grp {
+    display: flex;
+    justify-content: space-between;
+    width: clamp(100px, 50vw, 250px);
+    padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-buttons {
+      flex-direction: column;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .buttons-grp {
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+.button {
+    color: var(--fr-puce);
+    font-size: 20px;
+}
+
+.shelf {
+    border: 2px solid;
+    width: 70vw;
+    height: 80vh;
+}
